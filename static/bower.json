@@ -20,6 +20,7 @@
     "requirejs-text": "~2.0.10",
     "foundation": "zurb/bower-foundation",
     "html5-boilerplate": "~4.3.0",
-    "angularAMD": "~0.2.1"
+    "angularAMD": "~0.2.1",
+    "angular-foundation": "~0.5.1"
   }
 }

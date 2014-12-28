@@ -1,8 +1,9 @@
 define [
     "angularAMD"
     "angular-route"
+    "foundation"
 ], (angularAMD) ->
-    app = angular.module("webapp", ["ngRoute"])
+    app = angular.module("webapp", ["ngRoute", "mm.foundation"]) # "['mm.foundation']"
     app.config ($routeProvider) ->
         $routeProvider.when("/view1", angularAMD.route(
             templateUrl: "partials/partial1.html"

@@ -9,6 +9,7 @@ An angularjs, requirejs, coffeescript, zurb-foundation, gulp  seed project for m
 *  [coffee script](http://coffeescript.org/) all the way
 *  [gulp](http://gulpjs.com/) for build system
 *  [zurb foundation ](http://foundation.zurb.com/) and libsass for css framework
+*  [angular-foundation](http://pineconellc.github.io/angular-foundation/)
 
 ### why
 
