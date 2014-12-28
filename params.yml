@@ -13,12 +13,3 @@ port: 1999
 # service
 host: 0.0.0.0  #localhost
 
-
-
-# all the params relative to mongodb
-mongo:
-    # the url where to get mongodb
-    url: localhost:27017
-
-    # the name of the database to use
-    database_name: amazon_union
