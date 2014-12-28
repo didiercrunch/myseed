@@ -1,15 +1,6 @@
-define [], ->
-  [
-    "$scope"
-    "$http"
-    ($scope, $http) ->
+define ["app"], (app) ->
+    app.controller "MyCtrl1", ($scope) ->
+        $scope.message = "Message from MyCtrl1"
+        return
 
-      # You can access the scope of the controller from here
-      $scope.welcomeMessage = "hey this is myctrl1.coffee!"
-      $scope.okay = "okay?"
-
-      # because this has happened asynchroneusly we've missed
-      # Angular's initial call to $apply after the controller has been loaded
-      # hence we need to explicityly call it at the end of our Controller constructor
-      $scope.$apply()
-  ]
+    return
