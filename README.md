@@ -4,10 +4,11 @@ An angularjs, requirejs, coffeescript, zurb-foundation, gulp  seed project for m
 
 ### inside
 
-*  angularjs + requirejs = [angularAMD](http://marcoslin.github.io/angularAMD)
-*  coffee script all the way
-*  gulp for build system'
-*  zurb-foundation and libsass for css framework
+*  [Go](http://golang.com) + [Gorilla](http://www.gorillatoolkit.org/) web server
+*  [angularjs](https://angularjs.org/) + [requirejs](http://requirejs.org/) = [angularAMD](http://marcoslin.github.io/angularAMD)
+*  [coffee script](http://coffeescript.org/) all the way
+*  [gulp](http://gulpjs.com/) for build system
+*  [zurb foundation ](http://foundation.zurb.com/) and libsass for css framework
 
 ### why
 
